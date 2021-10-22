@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "460771010126",
+    "project_id": "slimmusic-7a216",
+    "storage_bucket": "slimmusic-7a216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460771010126:android:48664f1a5584ddbba6c51f",
+        "android_client_info": {
+          "package_name": "com.example.googlebooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuGc5aPy4hUDAKINZ1ntDg4WQbMMOgVKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460771010126:android:4e842b01560f80c3a6c51f",
+        "android_client_info": {
+          "package_name": "com.fredrikbogg.tinder_app_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuGc5aPy4hUDAKINZ1ntDg4WQbMMOgVKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460771010126:android:363e54f4ad2ac1f9a6c51f",
+        "android_client_info": {
+          "package_name": "deep.gen.tech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuGc5aPy4hUDAKINZ1ntDg4WQbMMOgVKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460771010126:android:0d64938cca508a8aa6c51f",
+        "android_client_info": {
+          "package_name": "slim.chisom.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuGc5aPy4hUDAKINZ1ntDg4WQbMMOgVKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460771010126:android:3bd2d18bee481fc3a6c51f",
+        "android_client_info": {
+          "package_name": "slimmusic.ce.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuGc5aPy4hUDAKINZ1ntDg4WQbMMOgVKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460771010126-ar3m5pkct6ls22e3in8r6t3r07dmua3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
