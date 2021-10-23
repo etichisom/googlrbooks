@@ -31,16 +31,16 @@ class _HomeState extends State<Home> {
     return Scaffold(
      body: SafeArea(
          child: Padding(
-           padding: const EdgeInsets.all(24.0),
+           padding: EdgeInsets.only(top: 20,left: 20,right: 20),
            child: Column(
              crossAxisAlignment: CrossAxisAlignment.start,
              children: [
-              text('Explore Thousand of books on the go', 27,isbold: true),
+              text('Explore Thousand of books on the go', 25,isbold: true),
                SizedBox(height: 20,),
                searchfield(_textEditingController,'search for books...',_bookbloc),
                SizedBox(height: 20,),
                text('Famous Books', 20,isbold: true),
-               SizedBox(height: 30,),
+               SizedBox(height: 20,),
                _bookbloc.books==null?CupertinoActivityIndicator():
                Expanded(
                  child: Container(

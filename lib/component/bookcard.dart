@@ -26,7 +26,7 @@ Widget bookcard(Item item,int index,BuildContext context) {
             padding: EdgeInsets.only(bottom:10,top:10,left: 10,right: 10),
             child: Row(
               children: [
-               // Image.network(item.volumeInfo.imageLinks.thumbnail),
+               Image.network(item.volumeInfo.imageLinks.thumbnail),
                 Expanded(
                   flex: 3,
                   child: Container(

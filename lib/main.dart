@@ -29,12 +29,10 @@ void main() async{
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    Themebloc themebloc = Provider.of<Themebloc>(context);
     return MaterialApp(
       title: 'Google books',
       debugShowCheckedModeBanner: false,
-      theme:themebloc.data,
-      home: Splash(),
+      home: Login(),
     );
   }
 }

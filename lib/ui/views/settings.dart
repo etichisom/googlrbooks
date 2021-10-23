@@ -19,8 +19,10 @@ class Setting extends StatelessWidget {
         children: [
           ListTile(
             onTap: (){
-              FirebaseAuth.instance.signOut();
-              nav(context, Login());
+              FirebaseAuth.instance.signOut().then((value) {
+                Navigator.pushAndRemoveUntil(context, CupertinoPageRoute(
+                    builder: (context) => Login()), (route) => false);
+              });
             },
             title: Text('Logout'),
             trailing: Icon(Icons.login),

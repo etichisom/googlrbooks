@@ -3,8 +3,9 @@ import 'package:flutter/cupertino.dart';
 class Authbloc extends ChangeNotifier{
   String Uid;
 
-  Set(String id){
+  Future<dynamic> Set(String id)async{
     Uid=id;
     notifyListeners();
+    return true;
   }
 }

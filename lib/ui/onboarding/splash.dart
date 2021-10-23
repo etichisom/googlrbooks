@@ -1,6 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:googlebooks/animation/slideinanimation.dart';
 import 'package:googlebooks/bloc/authbloc.dart';
+import 'package:googlebooks/component/text.dart';
 import 'package:googlebooks/services/navigate.dart';
 import 'package:googlebooks/ui/auth/login.dart';
 import 'package:googlebooks/ui/views/home.dart';
@@ -21,8 +24,9 @@ class _SplashState extends State<Splash> {
     authbloc = Provider.of<Authbloc>(context);
     cu=context;
     return Scaffold(
+      backgroundColor: Colors.green,
       body: Center(
-        child: Text('Google Books'),
+        child: Slidein(child: text('Bookie',35,color: Colors.white,isbold: true),duration: 1500,),
       ),
     );
   }
@@ -39,9 +43,11 @@ class _SplashState extends State<Splash> {
     FirebaseAuth.instance.authStateChanges().listen((event) {
       if(event!=null){
         authbloc.Set(event.uid);
-        nav(cu, Bnav(),remove: true);
+        Navigator.pushReplacement(cu, CupertinoPageRoute(
+            builder:(context)=>Bnav()));
       }else{
-        nav(cu, Login(),remove: true);
+        Navigator.pushReplacement(cu, CupertinoPageRoute(
+            builder:(context)=>Login()));
       }
     });
   }

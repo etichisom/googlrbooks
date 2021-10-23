@@ -9,3 +9,10 @@ Widget button(Function ontap,String title){
     child:text(title, 15,color: Colors.white),
   );
 }
+Widget Loadbutton(){
+  return  RaisedButton(
+    onPressed:(){},
+    color: Colors.green,
+    child:CupertinoActivityIndicator()
+  );
+}
